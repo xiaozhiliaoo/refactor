@@ -1,0 +1,4 @@
+* update documentation
+	* detail and sample
+
+* deploy to maven center
