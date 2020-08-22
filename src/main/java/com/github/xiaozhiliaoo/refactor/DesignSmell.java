@@ -1,4 +1,4 @@
-package org.engineering.refactor;
+package com.github.xiaozhiliaoo.refactor;
 
 /**
  * 设计上的缺陷一般来自违反软件基本设计原则，比如违反OOD设计，DRY，破坏MVC，破坏分层，低质量抽象，假装封装，不是is-a的继承，

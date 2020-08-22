@@ -1,4 +1,4 @@
-package org.engineering.refactor;
+package com.github.xiaozhiliaoo.refactor;
 
 /**
  * 代码实现上的缺陷一般来自编程规范和细节，大部分来自重复，codesmell来自<<重构>>一书
