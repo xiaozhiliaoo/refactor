@@ -11,7 +11,7 @@ public types, interface, class, methods, constructors, and fields to indicate co
 
 ## How to use it
 
-The @Refactor library is deployed to maven central. You can simply add it as a dependency:
+The **@Refactor** library is deployed to maven central. You can simply add it as a dependency:
 
 ### Apache Maven
 ```xml
