@@ -1,0 +1,24 @@
+language: java
+
+sudo: false
+
+jdk:
+  - openjdk8
+  - openjdk11
+  - openjdk13
+  - openjdk-ea
+
+matrix:
+  include:
+    - os: linux-ppc64le
+      jdk: openjdk8
+  allow_failures:
+    - jdk: openjdk-ea
+
+script:
+  - mvn
+
+after_success:
+  - mvn clean test javadoc:javadoc -Ddoclint=all
+
+
