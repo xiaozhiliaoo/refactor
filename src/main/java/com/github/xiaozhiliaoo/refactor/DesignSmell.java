@@ -1,14 +1,13 @@
 package com.github.xiaozhiliaoo.refactor;
 
 /**
- * design smell often from violate base sofeware design principle.
+ * design smell often from violate base software design principle.
  * violate ood,dry,break mvc, break layer, low quality abstract,
  * lack encapsulation,inheritance,modularization.
  * reference:http://www.tusharma.in/smells/DESIGN.html
  *
  * @author lili
- * @date 2020/8/18 11:16
- * @since v1
+ * @since 0.0.1
  */
 public enum DesignSmell {
     /**

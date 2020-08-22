@@ -3,10 +3,10 @@ package com.github.xiaozhiliaoo.refactor;
 import java.lang.annotation.*;
 
 /**
- * Refactor about design semll and code(implement) smell
+ * Refactor about design smell and code(implement) smell
  *
  * @author lili
- * @date 2020/8/17 10:09
+ * @since 0.0.1
  */
 @Retention(RetentionPolicy.SOURCE)
 @Target({

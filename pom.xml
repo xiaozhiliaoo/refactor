@@ -6,7 +6,9 @@
 
     <groupId>com.github.xiaozhiliaoo</groupId>
     <artifactId>refactor</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
+    <name>Refactor</name>
+
 
     <inceptionYear>2020</inceptionYear>
     <description>
@@ -26,6 +28,14 @@
         <system>github</system>
         <url>https://github.com/xiaozhiliaoo/refactor/issues</url>
     </issueManagement>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <developers>
         <developer>
@@ -111,12 +121,12 @@
             </build>
             <distributionManagement>
                 <snapshotRepository>
-                    <id>xiaozhiliao</id>
+                    <id>sonatype-nexus-snapshots</id>
                     <name>Sonatype Nexus Snapshots</name>
                     <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
                 </snapshotRepository>
                 <repository>
-                    <id>xiaozhiliao</id>
+                    <id>sonatype-nexus-staging</id>
                     <name>Nexus Release Repository</name>
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
                 </repository>

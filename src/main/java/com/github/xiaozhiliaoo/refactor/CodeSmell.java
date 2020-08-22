@@ -1,12 +1,11 @@
 package com.github.xiaozhiliaoo.refactor;
 
 /**
- * code impelments smell from code standard  and detail. from martin flower <<refactor>> book
+ * code implements smell from code standard  and detail. from martin flower refactor book
  * reference：https://www.refactoring.com/catalog/
  *
  * @author lili
- * @date 2020/8/18 10:16
- * @since v1
+ * @since 0.0.1
  */
 public enum CodeSmell {
 
