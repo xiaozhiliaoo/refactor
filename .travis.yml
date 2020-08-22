@@ -11,6 +11,8 @@ script:
   - mvn clean install -Dgpg.skip=true
 
 after_success:
-  - mvn clean test javadoc:javadoc -Ddoclint=all
+  - mvn clean test javadoc:javadoc jacoco:report coveralls:report -DrepoToken="${COVERALLS_TOKEN}" -Ddoclint=all
+
+repo_token: lw6HuXGRegcI66FLqCywmbjMjWGUzXzKT
 
 
