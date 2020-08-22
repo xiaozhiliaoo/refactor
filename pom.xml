@@ -21,7 +21,7 @@
         <tag>master</tag>
         <connection>scm:git:git@github.com:xiaozhiliaoo/refactor.git</connection>
         <developerConnection>scm:git@github.com:xiaozhiliaoo/refactor.git</developerConnection>
-        <url>https://gitbox.apache.org/repos/asf?p=commons-lang.git</url>
+        <url>https://github.com/xiaozhiliaoo/refactor</url>
     </scm>
 
     <issueManagement>
