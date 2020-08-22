@@ -3,7 +3,7 @@ package com.github.xiaozhiliaoo.refactor;
 import java.lang.annotation.*;
 
 /**
- * 重构注解，主要重构两点：1 代码设计 2 代码实现
+ * Refactor about design semll and code(implement) smell
  *
  * @author lili
  * @date 2020/8/17 10:09
@@ -21,24 +21,24 @@ import java.lang.annotation.*;
 public @interface Refactor {
 
     /**
-     * 设计上的问题需要重构的点
+     * design smell
      *
-     * @return 坏设计气味
+     * @return bad design smell
      */
     DesignSmell design() default DesignSmell.DO_BETTER;
 
     /**
-     * 代码上的问题需要重构的点
+     * code smell
      *
-     * @return 坏代码的气味
+     * @return bad code smell
      */
     CodeSmell code() default CodeSmell.DO_BETTER;
 
 
     /**
-     * 还能提高的点有哪些？
+     * design twice to improve quality
      *
-     * @return 提高点
+     * @return improve list
      */
     String[] improve() default "";
 

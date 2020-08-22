@@ -1,8 +1,8 @@
 package com.github.xiaozhiliaoo.refactor;
 
 /**
- * 代码实现上的缺陷一般来自编程规范和细节，大部分来自重复，codesmell来自<<重构>>一书
- * 更多参考：https://www.refactoring.com/catalog/
+ * code impelments smell from code standard  and detail. from martin flower <<refactor>> book
+ * reference：https://www.refactoring.com/catalog/
  *
  * @author lili
  * @date 2020/8/18 10:16
@@ -11,12 +11,12 @@ package com.github.xiaozhiliaoo.refactor;
 public enum CodeSmell {
 
     /**
-     *
+     * you can do better
      */
     DO_BETTER,
 
     /**
-     * 方法太长了
+     * method too long
      */
     METHOD_TOO_LONG,
 }
