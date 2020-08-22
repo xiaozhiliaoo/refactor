@@ -7,9 +7,10 @@ jdk:
   - openjdk11
   - openjdk13
 
+install: true
 
 script:
-  - mvn
+  - mvn clean install -Dgpg.skip=true
 
 after_success:
   - mvn clean test javadoc:javadoc -Ddoclint=all
