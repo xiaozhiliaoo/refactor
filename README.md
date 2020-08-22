@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.org/xiaozhiliaoo/refactor.svg?branch=master)](https://travis-ci.org/xiaozhiliaoo/refactor)
 [![Coverage Status](https://coveralls.io/repos/github/xiaozhiliaoo/refactor/badge.svg?branch=master)](https://coveralls.io/github/xiaozhiliaoo/refactor?branch=master)
+[![GitHub issues](https://img.shields.io/github/issues-raw/xiaozhiliaoo/refactor)](https://github.com/xiaozhiliaoo/refactor/issues)
+[![GitHub issues](https://img.shields.io/github/issues-closed-raw/xiaozhiliaoo/refactor)](https://github.com/xiaozhiliaoo/refactor/issues/?q=is%3Aissue+is%3Aclosed)
+
+
+![GitHub closed issues]()
 
 @Refactor improve code design and implement base on java annotation. @Refactor is uesd to annotate 
 public types, interface, class, methods, constructors, and fields to indicate code quality.
