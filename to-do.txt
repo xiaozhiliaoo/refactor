@@ -1,2 +1,0 @@
-* update documentation
-	* add more detail and solution

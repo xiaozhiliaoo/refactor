@@ -25,6 +25,16 @@ The **@Refactor** library is deployed to maven central. You can simply add it as
 </dependency>
 ```
 
+### example
+```java
+public interface Service {
+    @Refactor(design = DesignSmell.DUPLICATE_ABSTRACTION, improve = "duplicate with formatForAPPList, merge them to one method")
+    List<Map<String, Object>> formatForPCList(List<OtcAdvert> list, String langType);
+                          
+    List<Map<String, Object>> formatForAPPList(List<OtcAdvert> list, String langType); 
+}
+```
+
 ### Viewpoint
 
 CodeQuality = Design(80%) + Implement(20%) 
@@ -34,3 +44,5 @@ good,clean design is more important than code implement.
 ### TODO
 
 add smell more detail and solution
+
+@Refactor maybe not annotation at interface method, document will be ugly.
