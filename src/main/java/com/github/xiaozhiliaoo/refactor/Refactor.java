@@ -14,11 +14,19 @@ import java.lang.annotation.*;
         ElementType.CONSTRUCTOR,
         ElementType.FIELD,
         ElementType.METHOD,
+        ElementType.PARAMETER,
         ElementType.TYPE,
         ElementType.LOCAL_VARIABLE
 })
 @Documented
 public @interface Refactor {
+
+    /**
+     * basic software design principle
+     *
+     * @return principle
+     */
+    Principle principle() default Principle.DO_BETTER;
 
     /**
      * design smell
