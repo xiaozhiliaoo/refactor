@@ -8,8 +8,9 @@
 [![GitHub issues](https://img.shields.io/github/issues-closed-raw/xiaozhiliaoo/refactor)](https://github.com/xiaozhiliaoo/refactor/issues/?q=is%3Aissue+is%3Aclosed)
 
 
-@Refactor improve code design and implement base on java annotation. @Refactor is uesd to annotate 
-public types, interface, class, methods, constructors, and fields to indicate code quality.
+@Refactor improve code design and implement base on java annotation. @Refactor is used to annotate 
+public types, interface, class, methods, constructors, and fields to indicate code quality. also 
+provide some useful principles to making software clean and better. and make you always remember it.   
 
 ## How to use it
 
@@ -20,6 +21,10 @@ The **@Refactor** library is deployed to maven central. You can simply add it as
 <dependency>
     <groupId>com.github.xiaozhiliaoo</groupId>
     <artifactId>refactor</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
+
+### TODO
+
+add smell more detail and solution
