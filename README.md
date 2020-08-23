@@ -25,6 +25,12 @@ The **@Refactor** library is deployed to maven central. You can simply add it as
 </dependency>
 ```
 
+### Viewpoint
+
+CodeQuality = Design(80%) + Implement(20%) 
+
+good,clean design is more important than code implement.
+
 ### TODO
 
 add smell more detail and solution
