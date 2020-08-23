@@ -25,13 +25,35 @@ The **@Refactor** library is deployed to maven central. You can simply add it as
 </dependency>
 ```
 
-### example
+### Example
+1. duplicate abstraction
 ```java
 public interface Service {
     @Refactor(design = DesignSmell.DUPLICATE_ABSTRACTION, improve = "duplicate with formatForAPPList, merge them to one method")
     List<Map<String, Object>> formatForPCList(List<OtcAdvert> list, String langType);
                           
     List<Map<String, Object>> formatForAPPList(List<OtcAdvert> list, String langType); 
+}
+```
+
+
+
+2. break MVC
+
+```java
+public class Controller {
+    @Refactor(design = DesignSmell.BREAK_MVC, improve = "move controller`s business logic to service layer, keep web layer clean and thin")
+    public void doSomething() {   
+      // do a lot of thing 
+       service.doIt();
+      //do a lot of thing
+    }   
+}
+
+public class Service {
+    public void doIt() {
+        //only a little business logic
+    }
 }
 ```
 
