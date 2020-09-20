@@ -58,5 +58,10 @@ public enum CodeSmell {
 
     COMMENTS,
 
+    /**
+     * Command-Query Separation Principle
+     */
+    CQSP
+
 
 }
