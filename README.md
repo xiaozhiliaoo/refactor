@@ -11,6 +11,7 @@
 @Refactor improve code design and implement base on java annotation. @Refactor is used to annotate 
 public types, interface, class, methods, constructors, and fields to indicate code quality. also 
 provide some useful principles to making software clean and better. and make you always remember it.   
+@Refactor also provide **design review** and **code review** inspiration.
 
 ## How to use it
 
